@@ -16,5 +16,10 @@ namespace _240325_2
         {
             InitializeComponent();
         }
+
+        private void btnGo_Click(object sender, EventArgs e)
+        {
+            txtShow.Text = "Hello World!";
+        }
     }
 }

@@ -40,6 +40,7 @@
             this.btnGo.TabIndex = 0;
             this.btnGo.Text = "開始";
             this.btnGo.UseVisualStyleBackColor = true;
+            this.btnGo.Click += new System.EventHandler(this.btnGo_Click);
             // 
             // txtShow
             // 
